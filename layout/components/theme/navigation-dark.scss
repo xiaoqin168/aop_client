@@ -1,0 +1,47 @@
+/* 导航dark主题 */
+
+.seek-layout-sidebar-dark .next-navigation,
+.seek-layout-header-dark .next-navigation {
+    .next-navigation-item {
+        a,
+        span {
+            color: #A0A1B0;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+    .next-navigation-item-custom-icon {
+        color: #A0A1B0;
+    }
+    .next-navigation-item-tree-title>.next-navigation-item-content .next-navigation-item-custom-icon,
+    .next-navigation-item-tree-title>.next-navigation-item-content .next-navigation-item-text,
+    .next-navigation-item-tree-title>.next-navigation-item-content .next-navigation-item-leaf-icon {
+        color: #A0A1B0;
+    }
+    .next-navigation-item .next-navigation-item-content:hover .next-navigation-item-custom-icon {
+        color: #FF6A00;
+    }
+    .next-navigation-item-selected .next-navigation-item-custom-icon {
+        color: #A0A1B0;
+    }
+    .next-navigation-text .next-navigation-item:hover .next-navigation-item-leaf-icon {
+        color: #fff;
+    }
+    .next-navigation-item-leaf-icon {
+        color: #A0A1B0;
+    }
+    .next-navigation-item .next-navigation-item-content:hover .next-navigation-item-leaf-icon {
+        color: #FF6A00;
+    }
+    .next-navigation-item.next-navigation-item-selected {
+        background-color: #2a3643;
+    }
+    &.next-navigation-icononly .next-navigation-item-selected:hover {
+        background-color: #2a3643;
+    }
+    &.next-navigation-icononly .next-navigation-item:hover {
+        background-color: #2a3643;
+        color: #FF6A00;
+    }
+}

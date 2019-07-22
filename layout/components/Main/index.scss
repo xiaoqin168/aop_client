@@ -1,0 +1,11 @@
+// 组件如有皮肤功能，请从该文件引用 scss 变量
+.seek-layout-main {
+    box-sizing: border-box;
+    overflow: hidden;
+    .seek-layout-block-row {
+        overflow: hidden;
+    }
+    .seek-layout-block-col {
+        float: left;
+    }
+}

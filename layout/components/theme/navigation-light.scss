@@ -1,0 +1,45 @@
+/* 导航light主题 */
+
+.seek-layout-sidebar-light .next-navigation,
+.seek-layout-header-light .next-navigation {
+    .next-navigation-item {
+        a,
+        span {
+            color: #666;
+            &:hover {
+                color: #333;
+            }
+        }
+    }
+    .next-navigation-item-custom-icon {
+        color: #666;
+    }
+    .next-navigation-item-tree-title>.next-navigation-item-content .next-navigation-item-custom-icon,
+    .next-navigation-item-tree-title>.next-navigation-item-content .next-navigation-item-text,
+    .next-navigation-item-tree-title>.next-navigation-item-content .next-navigation-item-leaf-icon {
+        color: #666;
+    }
+    .next-navigation-item,
+    .next-navigation-group-title {
+        color: #666;
+        background-color: #fff;
+    }
+    .next-navigation-item-custom-icon {
+        color: #666;
+    }
+    .next-navigation-item .next-navigation-item-content:hover .next-navigation-item-custom-icon {
+        color: #333;
+    }
+    .next-navigation-item-selected .next-navigation-item-custom-icon {
+        color: #666;
+    }
+    .next-navigation-item .next-navigation-item-content:hover .next-navigation-item-leaf-icon {
+        color: #666;
+    }
+    .next-navigation-item.next-navigation-item-selected {
+        background-color: #EBECF0;
+    }
+    &.next-navigation-icononly .next-navigation-item-selected:hover {
+        background-color: #F2F3F7;
+    }
+}

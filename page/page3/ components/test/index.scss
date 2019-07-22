@@ -1,0 +1,11 @@
+.imageItems{
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+}
+.imageItems .image-card {
+    flex-grow: 1;
+    width:400px;
+    flex-wrap: wrap;
+    margin-right:10px;
+}
